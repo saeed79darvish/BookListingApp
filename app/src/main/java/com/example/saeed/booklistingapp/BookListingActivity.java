@@ -58,7 +58,6 @@ public class BookListingActivity extends AppCompatActivity implements LoaderMana
                 } else {
                     View loadingIndicator = findViewById(R.id.progressbar_indicator);
                     loadingIndicator.setVisibility(View.GONE);
-                    emptyTextView.setText(R.string.error_connection);
                 }
             }
 
